@@ -21,6 +21,9 @@ public class Pizza {
         this.isVeg = isVeg;
         basePrice = getBasePrice();
         price = basePrice;
+        this.isCheeseAdded = false;
+        this.isExtraToppings = false;
+        this.isTakeAway = false;
     }
 
     public int getPrice(){
